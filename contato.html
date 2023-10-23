@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style> /*acrescentando cor, tamanho de fonte e alinhamento para linhas específicas e criando classes para usar diretamente no html*/
+          h1{text-align: center; 
+    color: aliceblue;}  
+    p{text-align: center;
+    color: aliceblue;
+font-size: 17px;}
+.button{text-align: center;
+    width: 20%;
+    height: 20%;
+    background-color: #59429d;
+    font-size: 20px;
+}
+.link{text-align: center;
+    color: aliceblue;}
+    .button2{
+        text-align: center;
+        background-color: #59429d;
+        font-size: 17px;
+        padding: 0.2cm 0.6cm;
+        box-shadow: 2px 2px 2px color(0, 0, 0, 0.2);
+        text-shadow: 1px 1px 1px color(0, 0, 0, 0.5);
+        position: absolute;
+        top: 41%;
+        left: 45%;
+        margin-right: -50%;
+        color:aliceblue;
+    }
+    .cor{color: aliceblue;}
+    .borda{margin: center;
+            width: 30%;
+            height: 290px;
+            border: solid 1px;
+            border-radius: 50px 50px;
+        background-color: rgb(18, 18, 17);}
+
+    
+    </style>
+
+</head>
+<body background="imagens/bin2.jpg"> <!--imagem para fundo da página-->
+    <h1>Contato</h1>
+    <p>Quer entrar em contato comigo? 
+        Vai ser um prazer falar com você! <br>
+        Por favor, preencha os campos abaixo, eu te respondo o mais breve possível! 
+    </p>
+    <br>
+       
+       <center><form id="form" class="borda"> <br> <!--formulário para envio de mensagem-->
+    
+                    <label class="cor" class="form" for="nome">Nome:</label> <br>
+                    <input type="text" name="nome" id="nome"> <br> <br>
+                    <label class="cor" for="email">E-mail:</label> <br> 
+                    <input type="email" name="email" id="email"> <br> <br>
+                    <label class="cor" for="msg">Digite sua mensagem:</label></th> <br> 
+                    <textarea name="msg" id="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+                    <button class="button2">Enviar mensagem</button></center>
+         </form> 
+       <!--quebra de linha-->  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+         <center><button class="button"><a class="link" href="portfoliopessoal.html">Página Inicial</a></button> <!--botões no rodapé da página--> 
+            <button class="button"><a class="link" href="portfolio.html">Portfólio</a></button> 
+            <button class="button"><a class="link" href="formacao.html">Formação</a></button>
+            <button class="button"><a class="link" href="sobremim.html">Sobre mim</a></button></center>
+    </body>
+</html>
